@@ -3,7 +3,7 @@
 
 DWORD APIENTRY MainThread(LPVOID lpParam) {
 
-    // Code Here
+    MessageBoxA(NULL, "Deez", "Nuts", MB_OK | MB_ICONWARNING);
 
     return S_OK;
 }

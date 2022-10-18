@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10.0)
 
-file(READ MOD_NAME PROJECT_NAME)
+file(READ env/MOD_NAME PROJECT_NAME)
 
 project(${PROJECT_NAME})
 
